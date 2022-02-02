@@ -21,7 +21,7 @@ h1 {
 
 .upper-half {
   width: 80%;
-  height: 450px;
+  height: 400px;
   display: flex;
   flex-direction: row;
   align-items: center;
