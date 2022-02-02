@@ -11,10 +11,35 @@ body {
   width: 100%;
   height: 400px;
   background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.bragging,
+.ratings {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
 }
 
 .lower-half {
   width: 100%;
   height: 400px;
   background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.testimonial-a,
+.testimonial-b,
+.testimonial-c {
+  height: 300px;
+  width: 300px;
+  background-color: green;
 }
